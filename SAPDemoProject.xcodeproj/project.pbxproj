@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181E8D4C2888318200E6B674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4B2888318200E6B674 /* AppDelegate.swift */; };
+		181E8D4E2888318200E6B674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4D2888318200E6B674 /* SceneDelegate.swift */; };
+		181E8D502888318200E6B674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4F2888318200E6B674 /* ViewController.swift */; };
+		181E8D532888318200E6B674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D512888318200E6B674 /* Main.storyboard */; };
+		181E8D552888318400E6B674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D542888318400E6B674 /* Assets.xcassets */; };
+		181E8D582888318400E6B674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D562888318400E6B674 /* LaunchScreen.storyboard */; };
+		181E8D632888318400E6B674 /* SAPDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */; };
+		181E8D6D2888318400E6B674 /* SAPDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */; };
+		181E8D6F2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		181E8D5F2888318400E6B674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E8D402888318200E6B674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E8D472888318200E6B674;
+			remoteInfo = SAPDemoProject;
+		};
+		181E8D692888318400E6B674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 181E8D402888318200E6B674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 181E8D472888318200E6B674;
+			remoteInfo = SAPDemoProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		181E8D482888318200E6B674 /* SAPDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E8D4B2888318200E6B674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		181E8D4D2888318200E6B674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		181E8D4F2888318200E6B674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181E8D522888318200E6B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181E8D542888318400E6B674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		181E8D572888318400E6B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181E8D592888318400E6B674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181E8D5E2888318400E6B674 /* SAPDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectTests.swift; sourceTree = "<group>"; };
+		181E8D682888318400E6B674 /* SAPDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITests.swift; sourceTree = "<group>"; };
+		181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181E8D452888318200E6B674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D5B2888318400E6B674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D652888318400E6B674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		181E8D3F2888318200E6B674 = {
+			isa = PBXGroup;
+			children = (
+				181E8D4A2888318200E6B674 /* SAPDemoProject */,
+				181E8D612888318400E6B674 /* SAPDemoProjectTests */,
+				181E8D6B2888318400E6B674 /* SAPDemoProjectUITests */,
+				181E8D492888318200E6B674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		181E8D492888318200E6B674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181E8D482888318200E6B674 /* SAPDemoProject.app */,
+				181E8D5E2888318400E6B674 /* SAPDemoProjectTests.xctest */,
+				181E8D682888318400E6B674 /* SAPDemoProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		181E8D4A2888318200E6B674 /* SAPDemoProject */ = {
+			isa = PBXGroup;
+			children = (
+				181E8D4B2888318200E6B674 /* AppDelegate.swift */,
+				181E8D4D2888318200E6B674 /* SceneDelegate.swift */,
+				181E8D4F2888318200E6B674 /* ViewController.swift */,
+				181E8D512888318200E6B674 /* Main.storyboard */,
+				181E8D542888318400E6B674 /* Assets.xcassets */,
+				181E8D562888318400E6B674 /* LaunchScreen.storyboard */,
+				181E8D592888318400E6B674 /* Info.plist */,
+			);
+			path = SAPDemoProject;
+			sourceTree = "<group>";
+		};
+		181E8D612888318400E6B674 /* SAPDemoProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */,
+			);
+			path = SAPDemoProjectTests;
+			sourceTree = "<group>";
+		};
+		181E8D6B2888318400E6B674 /* SAPDemoProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */,
+				181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */,
+			);
+			path = SAPDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181E8D472888318200E6B674 /* SAPDemoProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E8D722888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProject" */;
+			buildPhases = (
+				181E8D442888318200E6B674 /* Sources */,
+				181E8D452888318200E6B674 /* Frameworks */,
+				181E8D462888318200E6B674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SAPDemoProject;
+			productName = SAPDemoProject;
+			productReference = 181E8D482888318200E6B674 /* SAPDemoProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		181E8D5D2888318400E6B674 /* SAPDemoProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E8D752888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProjectTests" */;
+			buildPhases = (
+				181E8D5A2888318400E6B674 /* Sources */,
+				181E8D5B2888318400E6B674 /* Frameworks */,
+				181E8D5C2888318400E6B674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E8D602888318400E6B674 /* PBXTargetDependency */,
+			);
+			name = SAPDemoProjectTests;
+			productName = SAPDemoProjectTests;
+			productReference = 181E8D5E2888318400E6B674 /* SAPDemoProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		181E8D672888318400E6B674 /* SAPDemoProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 181E8D782888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProjectUITests" */;
+			buildPhases = (
+				181E8D642888318400E6B674 /* Sources */,
+				181E8D652888318400E6B674 /* Frameworks */,
+				181E8D662888318400E6B674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				181E8D6A2888318400E6B674 /* PBXTargetDependency */,
+			);
+			name = SAPDemoProjectUITests;
+			productName = SAPDemoProjectUITests;
+			productReference = 181E8D682888318400E6B674 /* SAPDemoProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181E8D402888318200E6B674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					181E8D472888318200E6B674 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					181E8D5D2888318400E6B674 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 181E8D472888318200E6B674;
+					};
+					181E8D672888318400E6B674 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 181E8D472888318200E6B674;
+					};
+				};
+			};
+			buildConfigurationList = 181E8D432888318200E6B674 /* Build configuration list for PBXProject "SAPDemoProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 181E8D3F2888318200E6B674;
+			productRefGroup = 181E8D492888318200E6B674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181E8D472888318200E6B674 /* SAPDemoProject */,
+				181E8D5D2888318400E6B674 /* SAPDemoProjectTests */,
+				181E8D672888318400E6B674 /* SAPDemoProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181E8D462888318200E6B674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E8D582888318400E6B674 /* LaunchScreen.storyboard in Resources */,
+				181E8D552888318400E6B674 /* Assets.xcassets in Resources */,
+				181E8D532888318200E6B674 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D5C2888318400E6B674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D662888318400E6B674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181E8D442888318200E6B674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E8D502888318200E6B674 /* ViewController.swift in Sources */,
+				181E8D4C2888318200E6B674 /* AppDelegate.swift in Sources */,
+				181E8D4E2888318200E6B674 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D5A2888318400E6B674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E8D632888318400E6B674 /* SAPDemoProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		181E8D642888318400E6B674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181E8D6F2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift in Sources */,
+				181E8D6D2888318400E6B674 /* SAPDemoProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		181E8D602888318400E6B674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E8D472888318200E6B674 /* SAPDemoProject */;
+			targetProxy = 181E8D5F2888318400E6B674 /* PBXContainerItemProxy */;
+		};
+		181E8D6A2888318400E6B674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 181E8D472888318200E6B674 /* SAPDemoProject */;
+			targetProxy = 181E8D692888318400E6B674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		181E8D512888318200E6B674 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E8D522888318200E6B674 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181E8D562888318400E6B674 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181E8D572888318400E6B674 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		181E8D702888318400E6B674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		181E8D712888318400E6B674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181E8D732888318400E6B674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SAPDemoProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		181E8D742888318400E6B674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SAPDemoProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		181E8D762888318400E6B674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPDemoProject.app/SAPDemoProject";
+			};
+			name = Debug;
+		};
+		181E8D772888318400E6B674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SAPDemoProject.app/SAPDemoProject";
+			};
+			name = Release;
+		};
+		181E8D792888318400E6B674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAPDemoProject;
+			};
+			name = Debug;
+		};
+		181E8D7A2888318400E6B674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.capgemini.SAPDemoProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SAPDemoProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181E8D432888318200E6B674 /* Build configuration list for PBXProject "SAPDemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E8D702888318400E6B674 /* Debug */,
+				181E8D712888318400E6B674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E8D722888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E8D732888318400E6B674 /* Debug */,
+				181E8D742888318400E6B674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E8D752888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E8D762888318400E6B674 /* Debug */,
+				181E8D772888318400E6B674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		181E8D782888318400E6B674 /* Build configuration list for PBXNativeTarget "SAPDemoProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181E8D792888318400E6B674 /* Debug */,
+				181E8D7A2888318400E6B674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181E8D402888318200E6B674 /* Project object */;
+}
