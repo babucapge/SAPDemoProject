@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		181E8D4C2888318200E6B674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4B2888318200E6B674 /* AppDelegate.swift */; };
-		181E8D4E2888318200E6B674 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4D2888318200E6B674 /* SceneDelegate.swift */; };
-		181E8D502888318200E6B674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4F2888318200E6B674 /* ViewController.swift */; };
+		181E8D502888318200E6B674 /* LoremViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D4F2888318200E6B674 /* LoremViewController.swift */; };
 		181E8D532888318200E6B674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D512888318200E6B674 /* Main.storyboard */; };
 		181E8D552888318400E6B674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D542888318400E6B674 /* Assets.xcassets */; };
 		181E8D582888318400E6B674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D562888318400E6B674 /* LaunchScreen.storyboard */; };
 		181E8D632888318400E6B674 /* SAPDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */; };
 		181E8D6D2888318400E6B674 /* SAPDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */; };
 		181E8D6F2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */; };
+		18677C5C2889C4C70046B1D1 /* Lorem.json in Resources */ = {isa = PBXBuildFile; fileRef = 18677C542889C4C70046B1D1 /* Lorem.json */; };
+		18677C5E2889C4C70046B1D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C572889C4C70046B1D1 /* NetworkManager.swift */; };
+		18677C5F2889C4C70046B1D1 /* LoremModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C592889C4C70046B1D1 /* LoremModel.swift */; };
+		18677C602889C4C70046B1D1 /* LoremViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C5B2889C4C70046B1D1 /* LoremViewModel.swift */; };
+		18677C642889C5090046B1D1 /* LoremCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C622889C5090046B1D1 /* LoremCollectionViewCell.swift */; };
+		18677C652889C5090046B1D1 /* LoremCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18677C632889C5090046B1D1 /* LoremCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,17 +43,22 @@
 /* Begin PBXFileReference section */
 		181E8D482888318200E6B674 /* SAPDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAPDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E8D4B2888318200E6B674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181E8D4D2888318200E6B674 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		181E8D4F2888318200E6B674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181E8D4F2888318200E6B674 /* LoremViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremViewController.swift; sourceTree = "<group>"; };
 		181E8D522888318200E6B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181E8D542888318400E6B674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181E8D572888318400E6B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		181E8D592888318400E6B674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181E8D5E2888318400E6B674 /* SAPDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectTests.swift; sourceTree = "<group>"; };
 		181E8D682888318400E6B674 /* SAPDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITests.swift; sourceTree = "<group>"; };
 		181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18677C542889C4C70046B1D1 /* Lorem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lorem.json; sourceTree = "<group>"; };
+		18677C552889C4C70046B1D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18677C572889C4C70046B1D1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		18677C592889C4C70046B1D1 /* LoremModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoremModel.swift; sourceTree = "<group>"; };
+		18677C5B2889C4C70046B1D1 /* LoremViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoremViewModel.swift; sourceTree = "<group>"; };
+		18677C622889C5090046B1D1 /* LoremCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoremCollectionViewCell.swift; sourceTree = "<group>"; };
+		18677C632889C5090046B1D1 /* LoremCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoremCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,16 @@
 		181E8D4A2888318200E6B674 /* SAPDemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				18677C612889C4EF0046B1D1 /* View */,
+				18677C582889C4C70046B1D1 /* Model */,
+				18677C562889C4C70046B1D1 /* Network */,
+				18677C532889C4C70046B1D1 /* Resources */,
+				18677C5A2889C4C70046B1D1 /* ViewModel */,
 				181E8D4B2888318200E6B674 /* AppDelegate.swift */,
-				181E8D4D2888318200E6B674 /* SceneDelegate.swift */,
-				181E8D4F2888318200E6B674 /* ViewController.swift */,
+				181E8D4F2888318200E6B674 /* LoremViewController.swift */,
 				181E8D512888318200E6B674 /* Main.storyboard */,
 				181E8D542888318400E6B674 /* Assets.xcassets */,
 				181E8D562888318400E6B674 /* LaunchScreen.storyboard */,
-				181E8D592888318400E6B674 /* Info.plist */,
 			);
 			path = SAPDemoProject;
 			sourceTree = "<group>";
@@ -125,6 +138,48 @@
 				181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */,
 			);
 			path = SAPDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		18677C532889C4C70046B1D1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18677C542889C4C70046B1D1 /* Lorem.json */,
+				18677C552889C4C70046B1D1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18677C562889C4C70046B1D1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				18677C572889C4C70046B1D1 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		18677C582889C4C70046B1D1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18677C592889C4C70046B1D1 /* LoremModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18677C5A2889C4C70046B1D1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18677C5B2889C4C70046B1D1 /* LoremViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18677C612889C4EF0046B1D1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18677C622889C5090046B1D1 /* LoremCollectionViewCell.swift */,
+				18677C632889C5090046B1D1 /* LoremCollectionViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +287,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				181E8D582888318400E6B674 /* LaunchScreen.storyboard in Resources */,
+				18677C5C2889C4C70046B1D1 /* Lorem.json in Resources */,
+				18677C652889C5090046B1D1 /* LoremCollectionViewCell.xib in Resources */,
 				181E8D552888318400E6B674 /* Assets.xcassets in Resources */,
 				181E8D532888318200E6B674 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +315,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181E8D502888318200E6B674 /* ViewController.swift in Sources */,
+				18677C602889C4C70046B1D1 /* LoremViewModel.swift in Sources */,
+				18677C5E2889C4C70046B1D1 /* NetworkManager.swift in Sources */,
+				18677C642889C5090046B1D1 /* LoremCollectionViewCell.swift in Sources */,
+				181E8D502888318200E6B674 /* LoremViewController.swift in Sources */,
 				181E8D4C2888318200E6B674 /* AppDelegate.swift in Sources */,
-				181E8D4E2888318200E6B674 /* SceneDelegate.swift in Sources */,
+				18677C5F2889C4C70046B1D1 /* LoremModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,7 +500,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SAPDemoProject/Info.plist;
+				INFOPLIST_FILE = SAPDemoProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -467,7 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SAPDemoProject/Info.plist;
+				INFOPLIST_FILE = SAPDemoProject/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
