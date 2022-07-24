@@ -12,9 +12,11 @@
 		181E8D532888318200E6B674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D512888318200E6B674 /* Main.storyboard */; };
 		181E8D552888318400E6B674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D542888318400E6B674 /* Assets.xcassets */; };
 		181E8D582888318400E6B674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181E8D562888318400E6B674 /* LaunchScreen.storyboard */; };
-		181E8D632888318400E6B674 /* SAPDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */; };
 		181E8D6D2888318400E6B674 /* SAPDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */; };
 		181E8D6F2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */; };
+		18330166288DBA5D003A4512 /* Lorem.json in Resources */ = {isa = PBXBuildFile; fileRef = 18330163288DBA5D003A4512 /* Lorem.json */; };
+		18330167288DBA5D003A4512 /* LoremViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18330164288DBA5D003A4512 /* LoremViewModelTests.swift */; };
+		18330168288DBA5D003A4512 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18330165288DBA5D003A4512 /* NetworkManagerTests.swift */; };
 		18677C5C2889C4C70046B1D1 /* Lorem.json in Resources */ = {isa = PBXBuildFile; fileRef = 18677C542889C4C70046B1D1 /* Lorem.json */; };
 		18677C5E2889C4C70046B1D1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C572889C4C70046B1D1 /* NetworkManager.swift */; };
 		18677C5F2889C4C70046B1D1 /* LoremModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18677C592889C4C70046B1D1 /* LoremModel.swift */; };
@@ -48,10 +50,12 @@
 		181E8D542888318400E6B674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		181E8D572888318400E6B674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181E8D5E2888318400E6B674 /* SAPDemoProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectTests.swift; sourceTree = "<group>"; };
 		181E8D682888318400E6B674 /* SAPDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SAPDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181E8D6C2888318400E6B674 /* SAPDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITests.swift; sourceTree = "<group>"; };
 		181E8D6E2888318400E6B674 /* SAPDemoProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAPDemoProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		18330163288DBA5D003A4512 /* Lorem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lorem.json; sourceTree = "<group>"; };
+		18330164288DBA5D003A4512 /* LoremViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoremViewModelTests.swift; sourceTree = "<group>"; };
+		18330165288DBA5D003A4512 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		18677C542889C4C70046B1D1 /* Lorem.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Lorem.json; sourceTree = "<group>"; };
 		18677C552889C4C70046B1D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18677C572889C4C70046B1D1 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -126,7 +130,9 @@
 		181E8D612888318400E6B674 /* SAPDemoProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				181E8D622888318400E6B674 /* SAPDemoProjectTests.swift */,
+				18330163288DBA5D003A4512 /* Lorem.json */,
+				18330164288DBA5D003A4512 /* LoremViewModelTests.swift */,
+				18330165288DBA5D003A4512 /* NetworkManagerTests.swift */,
 			);
 			path = SAPDemoProjectTests;
 			sourceTree = "<group>";
@@ -298,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18330166288DBA5D003A4512 /* Lorem.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,7 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181E8D632888318400E6B674 /* SAPDemoProjectTests.swift in Sources */,
+				18330168288DBA5D003A4512 /* NetworkManagerTests.swift in Sources */,
+				18330167288DBA5D003A4512 /* LoremViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
