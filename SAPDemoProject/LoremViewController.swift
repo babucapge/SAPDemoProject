@@ -97,14 +97,11 @@ extension LoremViewController: UICollectionViewDelegate, UICollectionViewDelegat
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
+        let size = self.loremVM?.getCellHeight(index: indexPath.row+1, screenWidth: self.view.frame.size.width)
         let scaledWidth = 50 * self.scale
         if self.fitCells {
-            let size = self.loremVM?.getCellHeight(index: indexPath.row+1, screenWidth: self.view.frame.size.width)
             return CGSize(width: size?.width ?? 0.0, height: size?.height ?? 0.0)
         }
-        
-        let size = self.loremVM?.getCellHeight(index: indexPath.row+1, screenWidth: self.view.frame.size.width)
         return CGSize(width: size?.width ?? 0.0, height: scaledWidth+scaledWidth)
     }
 }
